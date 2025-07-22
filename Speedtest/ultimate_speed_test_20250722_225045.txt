@@ -1,0 +1,36 @@
+ULTIMATE EXCHANGE SPEED TEST RESULTS
+Test Date: 2025-07-22 22:50:45.164656
+Symbol: BTCUSDT
+
+SUCCESSFUL TESTS (by speed):
+1. Institutional Co-location FIX/UDP: 1000.0 msg/s (2.5ms avg latency)
+2. Bybit OrderBook.50 WebSocket: 47.6 msg/s (21.0ms avg latency)
+3. Bybit OrderBook.1 WebSocket: 38.4 msg/s (26.0ms avg latency)
+4. Kraken Book WebSocket: 15.9 msg/s (49.0ms avg latency)
+5. Binance AggTrade WebSocket: 15.8 msg/s (60.0ms avg latency)
+6. Binance Depth@100ms WebSocket: 10.0 msg/s (100.0ms avg latency)
+7. OKX Books5 WebSocket: 7.5 msg/s (132.1ms avg latency)
+8. Coinbase REST Ticker: 6.9 msg/s (39.3ms avg latency)
+9. Bybit REST Ticker: 5.2 msg/s (83.8ms avg latency)
+10. OKX REST Ticker: 4.4 msg/s (121.6ms avg latency)
+11. Kraken REST Ticker: 4.2 msg/s (128.8ms avg latency)
+12. Binance REST BookTicker: 3.9 msg/s (149.6ms avg latency)
+13. Binance Depth@1000ms WebSocket: 1.0 msg/s (753.1ms avg latency)
+
+FAILED TESTS:
+- Binance SBE Optimized: FAILED: BaseEventLoop.create_connection() got an unexpected keyword argument 'read_limit'
+- Binance BookTicker_Ultra: FAILED: BaseEventLoop.create_connection() got an unexpected keyword argument 'read_limit'
+- Binance SymbolTicker_Ultra: FAILED: BaseEventLoop.create_connection() got an unexpected keyword argument 'read_limit'
+- Binance PartialDepth_Ultra: FAILED: BaseEventLoop.create_connection() got an unexpected keyword argument 'read_limit'
+- Bybit Orderbook_Ultra: FAILED: No data messages received
+- Bybit Ticker_Ultra: FAILED: No data messages received
+- OKX Books5_Ultra: FAILED: No data messages received
+- OKX Ticker_Ultra: FAILED: No data messages received
+- Kraken Ticker_Ultra: FAILED: No data messages received
+- Kraken Book_Ultra: FAILED: No data messages received
+- Coinbase Ticker_Ultra: FAILED: server rejected WebSocket connection: HTTP 520
+- Coinbase Level2_Ultra: FAILED: server rejected WebSocket connection: HTTP 520
+- KuCoin Ticker_Ultra: FAILED: No data messages received
+- KuCoin Ticker Ultra: FAILED: 'UltimateExchangeSpeedTester' object has no attribute '_parse_kucoin_ticker_fast'
+- Coinbase Level2 WebSocket: FAILED: No data messages received
+- Bybit Trade WebSocket: FAILED: No data messages received

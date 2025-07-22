@@ -1,0 +1,23 @@
+ULTIMATE EXCHANGE SPEED TEST RESULTS
+Test Date: 2025-07-22 22:27:55.751853
+Symbol: BTCUSDT
+
+SUCCESSFUL TESTS (by speed):
+1. Kraken Book WebSocket: 77.7 msg/s (11.6ms avg latency)
+2. Bybit OrderBook.50 WebSocket: 54.0 msg/s (18.5ms avg latency)
+3. Binance BookTicker WebSocket: 52.9 msg/s (18.9ms avg latency)
+4. Bybit OrderBook.1 WebSocket: 18.7 msg/s (53.4ms avg latency)
+5. Binance Depth@100ms WebSocket: 10.1 msg/s (98.9ms avg latency)
+6. OKX Books5 WebSocket: 6.8 msg/s (144.9ms avg latency)
+7. Coinbase REST Ticker: 5.9 msg/s (62.2ms avg latency)
+8. Bybit REST Ticker: 5.2 msg/s (82.0ms avg latency)
+9. OKX REST Ticker: 4.3 msg/s (124.7ms avg latency)
+10. Kraken REST Ticker: 4.3 msg/s (122.6ms avg latency)
+11. Binance REST BookTicker: 3.9 msg/s (146.1ms avg latency)
+12. Binance AggTrade WebSocket: 3.3 msg/s (245.4ms avg latency)
+13. Binance Depth@1000ms WebSocket: 1.1 msg/s (538.1ms avg latency)
+
+FAILED TESTS:
+- Binance SBE WebSocket: Not yet publicly available - estimated performance
+- Coinbase Level2 WebSocket: FAILED: No data messages received
+- Bybit Trade WebSocket: FAILED: No data messages received

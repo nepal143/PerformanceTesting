@@ -1,0 +1,9 @@
+Binance WebSocket Speed Test Results
+Test Duration: 10 seconds
+Timestamp: 2025-07-22 22:09:33.600219
+
+Binance BookTicker (Ultra-Fast): 121.1 msg/s
+Binance BookTicker (Fast): 72.1 msg/s
+Binance Depth 100ms: 9.9 msg/s
+Binance Ticker (Original): 1.1 msg/s
+Binance Depth 1000ms: 1.0 msg/s
